@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { Route, Routes, BrowserRouter as Router, Navigate, Outlet } from 'react-router-dom';
+import { Route, Routes, BrowserRouter as Router, Navigate } from 'react-router-dom';
 
 const Home = lazy(() => import('./components/Home'));
 const Movies = lazy(() => import('./components/Movies'));
@@ -25,6 +25,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
