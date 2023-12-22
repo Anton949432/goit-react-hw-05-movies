@@ -16,8 +16,8 @@ const SharedLayout = () => {
                     <Link to="https://www.themoviedb.org/" end>
                         Головна
                     </Link>
-                    <Link to="https://www.themoviedb.org/discuss">Про нас</Link>
-                    <Link to="https://www.themoviedb.org/movie">Продукти</Link>
+                    <Link to="https://www.themoviedb.org/discuss">Давайте спілкуватися</Link>
+                    <Link to="https://www.themoviedb.org/movie">Популярні фільми</Link>
                 </nav>
             </Header>
             <Outlet />
