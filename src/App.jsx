@@ -1,8 +1,7 @@
 import React, { lazy, Suspense } from 'react';
-import { Route, Routes, BrowserRouter as Router, Navigate } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import SharedLayout from './components/SharedLayout';
 
-const Home = lazy(() => import('./components/Home'));
 const Movies = lazy(() => import('./components/Movies'));
 const MovieDetails = lazy(() => import('./components/MovieDetails'));
 const Cast = lazy(() => import('./components/Cast'));
@@ -24,6 +23,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
